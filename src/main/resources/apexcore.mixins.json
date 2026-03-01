@@ -1,0 +1,1 @@
+{\n  "required": true,\n  "minVersion": "0.8",\n  "package": "com.apexcore.mixin",\n  "compatibilityLevel": "JAVA_8",\n  "mixins": [\n    "MixinEntity",\n    "MixinEntityManager",\n    "MixinServerWorld",\n    "MixinChunkRenderDispatcher"\n  ],\n  "client": [\n    "client.MixinGameRenderer"\n  ],\n  "injectors": {\n    "defaultRequire": 1\n  }\n}
